@@ -1,0 +1,223 @@
+/*TIPOGRAFIAS UTILIZADAS
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Indie+Flower&family=Roboto:ital,wght@0,700;1,100;1,300;1,500&display=swap');
+font-family: 'Architects Daughter', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+display
+alto y ancho
+posisionamiento de los elementos
+box model
+colores
+*/
+body{
+    background-color: rgb(134, 102, 80);
+}
+
+/*INICIO PRIMERA SECCION INDEX*/
+.sectionIndexPrincipal{
+    background-color: black;
+    width: 100%;/*hace referencia al ancho*/
+    height: 30rem;
+    background-image: url(../assets/img/editada\ 2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+}
+.sectionIndexPrincipal div{
+
+    font-family: 'Indie Flower', cursive;
+    color: white;
+}
+.sectionIndexPrincipal div h1{
+    font-size: 40px;
+}
+.sectionIndexPrincipal button {
+    background-color: blue;
+}
+.sectionIndexPrincipal button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/*INCIO SEGUNDA SECCION INDEX*/
+.sectionIndexSecundaria{
+    text-align: center;
+}
+.sectionIndexSecundaria h2{
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive
+}
+.containerInfo{
+    background-color: grey;
+}
+
+.cardsInfo{
+    width: 21.875rem; 
+    background-color:  rgba(180, 123, 123, 0.884);
+    padding: 10px 20px; /*eje horizonta - eje vertical*/
+    /*border: .125rem solid black*/
+    /*SIEMPRE LOS BORDES VAN EN ORDEN: TAMAÑO - ESTILO - COLOR*/
+    border-width: .125rem;
+    border-style: solid;
+    border-color: rgba(75, 48, 48, 0.815);
+    
+    box-shadow: 20px 20px 50px rgb(150, 148, 148);
+}
+
+.border{
+    width: 18.75rem;
+    height: 300px;
+    border-radius: 50%;
+    /*background-color: cornflowerblue;*/
+    background-image: url(../assets/img/Ellipse1.png);
+    box-shadow: 1.25rem 1.25rem 3.125rem grey;
+}
+.cardsInfo{
+    font-size: 12px;
+}
+/*INICIO TERCERA SECCION IDEX*/
+
+.sectionIndexTerciaria{
+    background-color: lightgray;
+}
+.containerInfoTercera div button{
+    background-color: rgb(78, 9, 240);
+}
+.containerInfoTercera div button a{
+    color: white;
+    font-size: 20px;
+}
+/*
+MEDIDAS RELATIVAS (AL TAMAÑO DE LA PANTALLA)
+% - es la medida relativa mas utilizada, ya que se modifica segun la pantalla
+
+rem : html
+
+em : 40px 2em : 80px
+
+MEDIDAS ABSOLUTAS (MEDIDAS QUE NO CAMBIAN SEGUN LA PANTALLA) 
+px - se refiere a medidas absolutas
+
+
+*/
+
+
+/*QUIENES SOMOS*/
+.sectionQuienesSomosPrincipal{
+    background-color: grey;
+    width: 100%;/*hace referencia al ancho*/
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(134, 102, 80);
+}
+
+/*NUESTROS TRABAJOS*/
+.sectionNT{
+    background-color: grey;
+    width: 100%;/*hace referencia al ancho*/
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    background-image: url(../assets/img/insumos.jpeg);
+
+    
+
+}
+
+.sectionNuestrosTrabajosPrincipal{
+    
+    background-color: grey;
+    width: 100%;/*hace referencia al ancho*/
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(134, 102, 80);
+}
+
+/*CONTACTOS*/
+.sectionContactos{
+    background-color: grey;
+    width: 100%;/*hace referencia al ancho*/
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(134, 102, 80);
+}
+
+/*COMPRA*/
+.sectionCompra{
+    background-color: grey;
+    width: 100%;/*hace referencia al ancho*/
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    background-image: url(../assets/img/avion-proyectos.jpeg);
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-top: .3125rem;
+}
+body{
+    background-color: rgb(134, 102, 80);
+}
+.containerInfo{
+    background-color: grey;
+    
+}
+
+.cardsInfo{
+    width: 21.875rem; 
+    background-color:  rgba(180, 123, 123, 0.884);
+    padding: 10px 20px; /*eje horizonta - eje vertical*/
+    /*border: .125rem solid black*/
+    /*SIEMPRE LOS BORDES VAN EN ORDEN: TAMAÑO - ESTILO - COLOR*/
+    border-width: .125rem;
+    border-style: solid;
+    border-color: rgba(75, 48, 48, 0.815);
+    
+    
+    box-shadow: 20px 20px 50px rgb(150, 148, 148);
+}
+
+.tienda{
+    display: flex;
+}
